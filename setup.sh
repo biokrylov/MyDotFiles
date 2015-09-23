@@ -1,6 +1,6 @@
 !#/bin/bash
 
-cd $HOME/test
+cd $HOME
 if [ -d ./MyDotFiles/ ]; then
     mv MyDotFiles MyDotFiles.old
 fi
