@@ -13,4 +13,3 @@ export PATH=${PATH}:${ANDROID_SDK}/tools:${ANDROID_SDK}/platform-tools
 # MacPorts Installer addition on 2015-06-19_at_12:17:41: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
-export PATH=/Users/bel/bin:$PATH
