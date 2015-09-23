@@ -5,7 +5,7 @@ if [ -d ./MyDotFiles/ ]; then
     mv MyDotFiles MyDotFiles.old
 fi
 
-git clone ssh://github.com/biokrylov/MyDotFiles.git
+git clone https://github.com/biokrylov/MyDotFiles.git
 
 ln -s MyDotFiles/.bash_aliases .
 ln -s MyDotFiles/.bash_profile .
