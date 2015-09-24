@@ -11,8 +11,8 @@ if [ ! -d ./bin/ ]; then
     mkdir bin
 fi
 
-ln -sf MyDotFiles/.bash_aliases .
-ln -sf MyDotFiles/.bash_profile .
-ln -sf MyDotFiles/bin/* bin/
+ln -sf $HOME/MyDotFiles/.bash_aliases .
+ln -sf $HOME/MyDotFiles/.bash_profile .
+ln -sf $HOME/MyDotFiles/bin/* bin/
 printf "\nsource .bash_aliases\n" >> .bashrc 
 echo "setup complete"
