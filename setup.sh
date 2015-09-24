@@ -7,6 +7,6 @@ fi
 
 git clone https://github.com/biokrylov/MyDotFiles.git
 
-ln -s MyDotFiles/.bash_aliases .
-ln -s MyDotFiles/.bash_profile .
+ln -sf MyDotFiles/.bash_aliases .
+ln -sf MyDotFiles/.bash_profile .
 echo "\nsource .bash_aliases\n" >> .bashrc 
