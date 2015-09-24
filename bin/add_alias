@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ "$#" -ne 2 ]; then
+	echo no arguments
+else
+	echo alias $1=\'$2\' >> ~/.bash_aliases
+fi
