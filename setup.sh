@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 echo "setup started"
 cd $HOME
 if [ -d ./MyDotFiles/ ]; then
