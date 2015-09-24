@@ -5,6 +5,10 @@ if [ -d ./MyDotFiles/ ]; then
     mv MyDotFiles MyDotFiles.old
 fi
 
+if [ ! -d ./bin/ ]; then
+    mkdir bin
+fi
+
 git clone https://github.com/biokrylov/MyDotFiles.git
 
 ln -sf MyDotFiles/.bash_aliases .
