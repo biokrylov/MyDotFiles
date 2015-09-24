@@ -1,5 +1,5 @@
 !#/bin/bash
-
+echo "setup started"
 cd $HOME
 if [ -d ./MyDotFiles/ ]; then
     mv MyDotFiles MyDotFiles.old
@@ -11,3 +11,4 @@ ln -sf MyDotFiles/.bash_aliases .
 ln -sf MyDotFiles/.bash_profile .
 ln -sf MyDotFiles/bin/* bin/
 echo "\nsource .bash_aliases\n" >> .bashrc 
+echo "setup complete"
