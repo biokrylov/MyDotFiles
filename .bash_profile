@@ -1,8 +1,11 @@
 HISTSIZE=130000 HISTFILESIZE=-1
 
+shopt -s histappend
 shopt -s checkwinsize
 stty -ixon
 set -o vi
+
+export PROMPT_COMMAND="history -a; history -n"
 
 unset USERNAME
 
