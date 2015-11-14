@@ -15,3 +15,7 @@ export PATH=$HOME/bin:$PATH
 if [ -f ~/.bashrc ]; then
    source ~/.bashrc
 fi
+
+if command -v tmux>/dev/null; then
+   [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && tmux
+fi
